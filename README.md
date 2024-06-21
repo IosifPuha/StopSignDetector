@@ -8,7 +8,7 @@ This repository contains MATLAB code for fine tuning a pre-trained RCNN model. B
 - If you want to use the program on your machine you have to change this line of code, providing the path where the images for training are saved on your machine: 
   ```matlab
   newPrefix = 'PATH-TO-DIRECTORY\stopSignImages';
-
+  ```
 
 ## trainingRCNN.m (Training Script):
 
