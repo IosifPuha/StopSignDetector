@@ -4,7 +4,7 @@
 
 <img src="https://github.com/IosifPuha/StopSignDetector/assets/96111070/f7a2a227-d402-4e4d-b3a1-6ae87b12dcf5" alt="imageDemoSignDetector1" width="400">
 
-<img src="https://github.com/IosifPuha/StopSignDetector/assets/96111070/26652342-6749-44a8-988b-ed27bd0ae035" alt="imageDemoSignDetector2" width="400" height="200">
+<img src="https://github.com/IosifPuha/StopSignDetector/assets/96111070/26652342-6749-44a8-988b-ed27bd0ae035" alt="imageDemoSignDetector2" width="400">
 
 
 This repository contains MATLAB code for fine tuning a pre-trained RCNN model. Below is a breakdown of the functionalities provided:
