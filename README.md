@@ -1,7 +1,7 @@
 # Stop Sign Detection with Fine-tuned RCNN (MATLAB)
 
 
-<div style="align-self: center;">
+<div style="display: flex ;align-self: center;">
 <img src="https://github.com/IosifPuha/StopSignDetector/assets/96111070/f7a2a227-d402-4e4d-b3a1-6ae87b12dcf5" alt="imageDemoSignDetector1" width="400" >
 
 <img src="https://github.com/IosifPuha/StopSignDetector/assets/96111070/26652342-6749-44a8-988b-ed27bd0ae035" alt="imageDemoSignDetector2" width="400" height="226">
