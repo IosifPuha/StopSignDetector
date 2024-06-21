@@ -1,7 +1,7 @@
 % Load the ground-truth
 load gTruth.mat
-% Change this to the path were the images are located on your machine
-newPrefix = 'D:\GrindingS\SignDetectorProject\stopSignImages\';
+% Change this to the path where the images are located on your machine
+newPrefix = 'PATH-TO-DIRECTORY\stopSignImages\';
 currentPaths = gTruth.imageFilename;
 newPaths = cell(size(currentPaths));
 for i = 1:length(currentPaths)
