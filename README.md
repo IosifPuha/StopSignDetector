@@ -1,6 +1,4 @@
 # Stop Sign Detection with Fine-tuned RCNN (MATLAB)
-![image](https://github.com/IosifPuha/StopSignDetector/assets/96111070/f7a2a227-d402-4e4d-b3a1-6ae87b12dcf5)
-
 <img src="https://github.com/IosifPuha/StopSignDetector/assets/96111070/f7a2a227-d402-4e4d-b3a1-6ae87b12dcf5" alt="image" width="400">
 
 
