@@ -2,7 +2,7 @@
 
 This repository contains MATLAB code for fine tuning a pre-trained RCNN model. Below is a breakdown of the functionalities provided:
 
-## Ground Truth Preparation Script:
+## prepareGroundTruth.m (Ground Truth Preparation Script):
 - **load gTruth.mat**: Loads ground truth data containing bounding box information and labels for stop signs in your training dataset.
 - if you want to use the program on your machine you have to change this line of code, providing the path where the images for training are saved:
 - 
@@ -10,7 +10,7 @@ This repository contains MATLAB code for fine tuning a pre-trained RCNN model. B
 
 
 
-## Training Script:
+## trainingRCNN (Training Script):
 
 ### Load Layers:
 - **load('rcnnStopSigns.mat', 'layers')**: Loads a pre-trained RCNN model architecture stored in the `rcnnStopSigns.mat` file.
@@ -30,7 +30,7 @@ This repository contains MATLAB code for fine tuning a pre-trained RCNN model. B
   - `Options`: Training options defined earlier.
   - **'NegativeOverlapRange', [0 0.1]**: Defines the range of bounding box overlaps considered negative examples during training (boxes with less than 10% overlap with a ground truth stop sign are considered negative).
 
-## Testing Script:
+## testRCNN (Testing Script):
 
 ### Load Test Image:
 - **uigetfile**: Prompts the user to select a test image.
