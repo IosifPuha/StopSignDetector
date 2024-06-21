@@ -54,4 +54,4 @@ This repository contains MATLAB code for fine tuning a pre-trained RCNN model. B
 - This is a basic implementation. You can modify it to:
   - Train the model for a longer duration or with different hyperparameters for better accuracy.
   - Evaluate the model's performance on a separate validation dataset.
-  - Integrate this code into a larger application for real-time stop sign detection in video streams.
+  - Integrate this code into larger applications.
