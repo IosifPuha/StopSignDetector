@@ -13,7 +13,7 @@ This repository contains MATLAB code for fine tuning a pre-trained RCNN model. B
 ## trainingRCNN.m (Training Script):
 
 ### Load Layers:
-- **load('rcnnStopSigns.mat', 'layers')**: Loads a pre-trained RCNN model architecture stored in the `rcnnStopSigns.mat` file.
+- `**load('rcnnStopSigns.mat', 'layers')**`: Loads a pre-trained RCNN model architecture stored in the `rcnnStopSigns.mat` file.
 
 ### Define Training Options:
 - **trainingOptions('sgdm', ...)**: Sets the training optimizer to stochastic gradient descent (sgdm).
