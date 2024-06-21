@@ -28,7 +28,7 @@ This repository contains MATLAB code for fine tuning a pre-trained RCNN model. B
   - `gTruth`: Ground truth data for stop signs.
   - `layers`: Pre-trained RCNN model architecture.
   - `Options`: Training options defined earlier.
-  - **`'NegativeOverlapRange', [0 0.1]`**: Defines the range of bounding box overlaps considered negative examples during training (boxes with less than 10% overlap with a ground truth stop sign are considered negative).
+  - `'NegativeOverlapRange', [0 0.1]`: Defines the range of bounding box overlaps considered negative examples during training (boxes with less than 10% overlap with a ground truth stop sign are considered negative).
 
 ## testRCNN.m (Testing Script):
 
